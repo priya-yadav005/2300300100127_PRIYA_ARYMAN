@@ -4,7 +4,7 @@ class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
         Stack<Integer> stack = new Stack<>();
-        Map<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int i = nums2.length - 1; i >= 0; i--) {
 
