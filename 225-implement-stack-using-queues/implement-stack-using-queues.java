@@ -2,6 +2,7 @@ import java.util.*;
 
 class MyStack {
     Queue<Integer> q;
+    
 
     public MyStack() {
         q = new LinkedList<>();
